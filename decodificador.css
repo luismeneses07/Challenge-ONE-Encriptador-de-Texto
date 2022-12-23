@@ -1,42 +1,89 @@
-.vector {
-    position: absolute;
-    left: 6.67%;
-    right: 37.43%;
-    top: 3%;
-    bottom: 0%;
+.container {
+    display: flex;
+    flex-flow: row-reverse;
+    height: 100vh;
+    background: #F3F5FC;
 }
-.button{
-    box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 24px;
-gap: 8px;
-
-position: absolute;
-width: 336px;
-height: 67px;
-left: 932px;
-top: 505px;
-
-/* Dark blue/dark-blue-300 */
-
-border: 1px solid #0A3871;
-border-radius: 24px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
 
 
-flex: none;
-order: 0;
-flex-grow: 1;
+/*Lado derecho de la pantalla*/
+.concontainerLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.containerResult {
+    width: 400px;
+    padding: 10px;
+}
+
+.containerRectangulo {
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerimagen {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imagen {
+    width: 236px;
+    height: 204px;
+}
+
+.containerRespuesta {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerMensaje {
+    width: 80%;
+    margin: auto;
+}
+
+.respuestaMensaje {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.containerTexto {
+    width: 80%;
+    margin: auto;
+}
+
+.texto {
+    border: none;
+    outline: none;
+    display: flex;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    resize: none;
 
 }
